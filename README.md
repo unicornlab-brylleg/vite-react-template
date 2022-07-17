@@ -1,6 +1,6 @@
 # Ultimate React App Template
 
-Ultimate template for a React+TS single page application.
+Ultimate template for a React+TS single page application...
 
 ### Tech Stack
 
