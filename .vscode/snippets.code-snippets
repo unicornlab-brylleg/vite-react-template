@@ -1,0 +1,32 @@
+{
+  "React FC w/o Props": {
+    "prefix": "rfnp",
+    "body": [
+      "import React from \"react\";",
+      "",
+      "const $1: React.FC = () => {",
+      "\treturn <div>hahahaha</div>;",
+      "};",
+      "",
+      "export default $1;"
+    ],
+    "description": "React FC w/o Props Custom Snippet"
+  },
+  "React FC w/ Props": {
+    "prefix": "rfp",
+    "body": [
+      "import React from \"react\";",
+      "",
+      "interface $1Props {",
+      "\t$2",
+      "};",
+      "",
+      "const $1: React.FC<$1Props> = ({ $3 }) => {",
+      "\treturn <div>hahahah</div>;",
+      "};",
+      "",
+      "export default $1;"
+    ],
+    "description": "React FC w/ Props Custom Snippet"
+  }
+}
